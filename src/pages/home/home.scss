@@ -1,0 +1,30 @@
+page-home {
+    .details{
+        text-align: justify;
+        width: 100%;
+    }
+    .date{
+        text-align: center;
+        font-size: 2.0em;
+        font-weight: bold;
+    }
+    .title-home{
+        text-align: left;
+        font-size: 2.0em;
+        font-weight: bold;
+    }
+
+    .body-home{
+        width: 100%;
+        height: 10px;
+    }
+    ion-img{
+        width: 45%;
+        height: 200px;
+
+    }
+    .imagem{
+        text-align: center;
+        height: 200px;
+    }
+}

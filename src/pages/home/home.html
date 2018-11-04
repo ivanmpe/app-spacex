@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background-geral">
+  <div class="body-home">
+    <h2 class="title-home">Bem-Vindo ao SpaceX!</h2>
+    <p>
+      Próxima Missão: <strong> {{launch.mission_name}}</strong>
+    </p>
+    <div class="imagem">
+      <ion-img src="assets/imgs/falcon9.jpg"></ion-img>
+    </div>
+    <div class="details">
+      <strong>{{rocket}} </strong>
+      <p>
+        {{launch.details}}
+      </p>
+    </div>
+    <div class="date">
+      {{dias}} dias, {{horas}} : {{minutos}} : {{segundos}}
+    </div>
+  </div>
+</ion-content>

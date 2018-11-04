@@ -1,0 +1,24 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title> Senha </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <form #f="ngForm" (submit)="form_alteraSenha(f)">
+    <ion-list>
+      <ion-label><strong> Nova Senha </strong> </ion-label>
+      <ion-item>
+        <ion-input type="password" placeholder="Nova senha" required ngModel name="novaSenha"></ion-input>
+      </ion-item>
+      <ion-label><strong> Repita nova Senha: </strong> </ion-label>
+      <ion-item class="lista-muda-senha">
+        <ion-input class="lista-muda-senha" type="password" placeholder="Repita a senha" required ngModel name="repitaSenha">
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button type="submit" class="alteraSenha"> Salvar </button>
+  </form>
+</ion-content>

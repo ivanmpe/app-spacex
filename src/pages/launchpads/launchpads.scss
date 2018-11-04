@@ -1,0 +1,58 @@
+page-launchpads {
+    .background-cards{
+        background-color: #b3e5fc;
+      }
+    
+      .ion-card-launchpad {
+          position: relative;
+          text-align: justify;
+          height: 250px;
+      }
+      
+      .details{
+        width: 90%;
+        text-align: justify;
+        font-size: 1.0em;
+      }
+      .body-details{
+        font-size: 0.8em;
+        color: black;
+      }
+
+     
+      .card-title-launchpad {
+        position: absolute;
+        top: 8%;
+        font-size: 1.8em;
+        width: 100%;
+        font-weight: bold;
+        color:black;
+        text-shadow: 1px 1px #505050;
+
+      }
+    
+      .card-subtitle-launchpad {
+        font-size: 0.90em;
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        left: 5%;
+        color: black;
+    }
+      
+    .btn-details-launchpad{
+      background-color: primary;
+      height: 15px;
+      font-size: 0.90em;
+      color: white;
+      border-radius: 20px;
+      width: 50%;
+      left: 25%;
+      top: 80%;
+      border: 1px solid white;
+      padding: 2%;
+      text-transform: none;
+      text-align: justify;
+      position: absolute;
+    }
+}

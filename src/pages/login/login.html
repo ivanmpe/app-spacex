@@ -1,0 +1,19 @@
+<ion-content padding class="background-login">
+  <br>
+  <div class="formulario">
+    <form #f="ngForm" (submit)="form_login(f)">
+      <img src="assets/logo.png" class="imagem-logo">
+      <br>
+      <ion-item class="item-login" no-lines>
+        <ion-input class="email" placeholder="E-mail" type="text" value="" required ngModel name="email"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item class="item-login" no-lines>
+          <ion-input type="password"  placeholder="Senha" required ngModel name="password"></ion-input>
+      </ion-item>
+      <br>
+      <button ion-button full class="logon" type="submit"> Entrar </button>
+    </form>
+  </div>
+  <button ion-button class="register" (click)="paginaCadastro()"> Criar conta </button>
+</ion-content>

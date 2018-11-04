@@ -1,0 +1,21 @@
+page-cadastro {
+    .item-cadastro{
+        background: transparent;
+    }
+    ion-input{
+        color: #f8f8f8;
+    }
+    ion-header {
+        .toolbar {
+          position: absolute;
+      
+          .toolbar-background {
+            background: transparent;
+          }
+          .toolbar-title {
+            color: rgb(212, 211, 211);
+          }
+         
+        }
+      }
+}
